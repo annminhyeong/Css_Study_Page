@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.list{
+    border: 3px solid brown;
+    padding: 10px;
+}
+
+.list div, .list p{
+    border: 3px solid skyblue;
+    margin: 10px;
+}
+
+.list div:nth-child(2){
+    background-color: rgb(200, 236, 250);
+}
+
+/* .list div:nth-child(4){
+    background-color: rgb(200, 236, 250);
+} */
+
+.list div:nth-of-type(4){
+    background-color: rgb(200, 236, 250);
+}
+
+.list div:first-child{
+    font-size: 30px;
+}
+
+.list div:last-child{
+    font-size: 30px;
+}
+
+.list div:nth-child(even){
+    width: 300px;
+}
+
+.list div:nth-child(odd){
+    border: 3px dashed darkblue;
+}
+
+.list:before{
+    content: "안녕하세요";
+}
+
+.list:after{
+    content: "안녕히가세요";
+}
+
+.list div:not(.box){
+    text-align: center;
+}

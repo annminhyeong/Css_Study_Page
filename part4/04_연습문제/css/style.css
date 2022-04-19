@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background-color: #eee;
+    border: 3px solid yellow;
+    width: 800px;
+    padding: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    color: white;
+}
+
+#container ul li::first-letter{
+    font-size: 10px;
+} 
+
+ul:before{
+    content: "안녕하세요?? 저는 OOO 입니다";
+    color: brown;
+}
+
+ul:after{
+    content: "감사합니다";
+    color: brown;
+}
+
+ul.list li:nth-child(2n){
+    background-color: pink;
+}
+
+ul.list li:first-child{
+    border: 3px dashed rgb(0, 0, 0);
+}
+ul.list li:nth-child(1),:nth-child(3),:nth-child(5){
+    background-color: rgb(111, 139, 249);
+    letter-spacing: 3px;
+}
+
+ul.list li:nth-child(7),:nth-child(9),:nth-child(11){
+    background-color: rgb(111, 191, 249);
+}
+ul.list li:nth-child(9){
+    border: 3px solid #000;
+}
+ul.list li:nth-child(7){
+    text-align: right;
+}
+

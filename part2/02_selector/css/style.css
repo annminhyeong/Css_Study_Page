@@ -1,0 +1,31 @@
+*{
+    /* border: 1px solid #000; */
+}
+
+#box{
+    border: 3px solid darkcyan;
+}
+
+#box > h1 {
+    background-color: aliceblue;
+}
+
+#box > a {
+    color: brown;
+}
+
+#box p{
+    background-color: beige;
+}
+
+#box p.text{
+    border: 2px solid black;
+}
+
+#box p.text ~ p{
+    color: yellowgreen;
+}
+
+#box p.text02 + a{
+    font-size: 30px;
+}

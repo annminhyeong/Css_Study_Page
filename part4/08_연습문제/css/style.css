@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+article{
+    border:  5px solid rgb(255, 170, 59);
+}
+
+#wrap{
+    width: 800px;
+    border: 5px solid skyblue;
+}
+div.visual img{
+    width: 100%;
+}
+
+nav{
+    border: 5px solid green;
+}
+
+ul.nav_list li{
+    background-color: yellow;
+    border-bottom: 1px solid brown;
+    text-align: center;
+}
+
+ul.nav_list span{
+    color: brown;
+}
+h1{
+    font-family: 'Square Peg', cursive;
+    font-weight: 900;
+    color: blue;
+}
+
+article.cont1 h1{
+    text-align: right;
+}
+
+article.cont1 p:first-letter{
+    font-size: 30px;
+}
+
+article.cont1 p::first-line{
+color: pink;
+}
+
+article.cont1 p {
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+article.cont2{
+    text-align: center;
+}
+
+ul.cont_list li{
+    border: 1px solid green;
+    background-color: skyblue;
+}
+
+ul.cont_list li a{
+    color: green;
+    letter-spacing: 5px;
+}
+
+ul.cont_list li:nth-child(3){
+    font-size: 20px;
+}
+
+ul.cont_list li:nth-child(3) a{
+    color: rgb(179, 179, 245);
+}

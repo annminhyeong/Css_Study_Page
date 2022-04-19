@@ -1,0 +1,42 @@
+#container{
+    height: 400px;
+    border: 3px solid black;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: flex-end;
+    /* flex-wrap: wrap; */
+}
+
+#container > div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 1px solid red;
+}
+
+#container > div.item1{
+    height: 100px;
+    order: 5;
+    align-self: flex-start;
+}
+
+#container > div.item2{
+    height: 50px;
+    order: 1;
+}
+
+#container > div.item3{
+    height: 130px;
+    order: 2;
+}
+
+#container > div.item4{
+    height: 200px;
+    order: 3;
+}
+
+#container > div.item5{
+    height: 80px;
+    order: 4;
+}

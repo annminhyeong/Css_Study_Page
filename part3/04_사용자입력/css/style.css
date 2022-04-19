@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    width: 800px;
+    border: 3px solid olivedrab;
+    padding: 10px;
+}
+
+h1{
+    background-color: olivedrab;
+    text-align: center;
+    color: #fff;
+}
+
+fieldset{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid olivedrab;
+}
+
+fieldset legend{
+    color: olivedrab;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+form ul li, #wrap div {
+    background-color: #eee;
+    margin: 5px;
+    padding: 5px;
+}
+
+input, textarea{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 3px;
+}
+
+input[type=button],input[type=submit]{
+    background-color: #000;
+    color: #fff;
+}

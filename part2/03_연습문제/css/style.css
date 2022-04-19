@@ -1,0 +1,33 @@
+#container{
+    border: 3px dashed darkblue;
+}
+
+.title img{
+    width: 100px;
+}
+
+p.text{
+    background-color: yellowgreen;
+}
+
+p.text > strong{
+    color: white;
+}
+
+h2.sub_txt{
+    color: #ff0000;
+}
+
+p.text02{
+    background-color: burlywood;
+    color: white;
+}
+
+img.cont_img{
+    width: 300px;
+}
+
+a.btn{
+    color: aquamarine;
+    text-decoration: none;
+}

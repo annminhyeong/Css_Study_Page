@@ -1,0 +1,45 @@
+body{
+    height: 3000px;
+}
+
+.fiexed{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    right: calc(50% - 600px);
+    background-color: yellow;
+    border: 3px dashed brown;
+}
+#box{
+    background-color: #eee;
+}
+.box_rel{
+    width: 1000px;
+    height: 1000px;
+    background-color: pink;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.txt01{
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.cat{
+    position: absolute;
+    bottom: 0;
+    right: -50px;
+}
+
+.txt02{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 200px;
+}

@@ -1,0 +1,14 @@
+body{
+    height: 5000px;
+}
+
+#wrap{
+    height:600px;
+    width: 600px;
+    background-color: antiquewhite;
+    background-image: url(../img/01.png),url(../img/bg_line.gif);
+    background-repeat: no-repeat, repeat-x;
+    background-position: 450px 400px,bottom;
+    background-size: 200px auto, auto;
+    background-attachment: fixed, scroll;
+}

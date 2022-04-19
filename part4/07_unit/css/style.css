@@ -1,0 +1,32 @@
+div{
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.px{
+    font-size: 20px;
+}
+
+.em{
+    font-size: 2em;
+}
+
+.rem{
+    font-size: 2rem;
+}
+
+.vw{
+    width: 20vw;
+}
+
+.vh{
+    height: 10vh;
+}
+
+.percent{
+    width: 20%;
+}
+
+.px_width{
+    width: 800px;
+}
